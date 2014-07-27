@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <edu.neu.madcourse.zacharyberry.hwm_gameView
+    <com.androidprojects.zberry.hopwithme.hwm_gameView
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

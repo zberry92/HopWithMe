@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!-- Main Application Strings-->
     <string name="app_name">Hop with Me</string>
     <string name="preferences_label">Preferences</string>
-    <string name="music_title">Music</string>
-    <string name="music_summary">Music asumamry</string>
-    <string name="settings_label">Settings</string>
-    <string name="settings_shortcut">Settings Short</string>
-    <string name="action_settings">Action Settings</string>
     <string name="hwm_app_label">HopWithMe</string>
     <string name="hwm_hardest_part">Trickiest Part</string>
     <string name="hwm_final_project">Final Project</string>
@@ -22,22 +18,19 @@
         %s------------------%s-------------------%s</string>
     <string name="hwm_ack">Acknowledgements</string>
     <string name="hwm_ack_string">
-        We would like to acknowledge the following for this app:\n
+        I would like to acknowledge the following for this app:\n
         1. Professional Android Sensing for Sensing knowledge.\n
-        2. Mansoor for his assistance in the tutorials.\n
-        3. Professor Intille for teaching the class.\n
-        4. Icon: http://findicons.com/icon/54145/frog.\n
-        5. Graphics: \n
+        2. Icon: http://findicons.com/icon/54145/frog.\n
+        3. Graphics: \n
             Frog image: http://www.flickr.com/photos/61104766@N04/5564827664/ \n
             Fly image: http://www.elisabethhubert.com/blog/page/7/ \n
             Log image: http://graphicriver.net/item/bark-05-red-brown/73866 \n
             Turtle shell image: http://sweetclipart.com/cute-green-turtle-696 \n
             Lilly pad image: http://www.mpmschoolsupplies.com/p-15810-classic-accents-lily-pad-one-design.aspx \n
             Rock image: http://www.123rf.com/photo_4638192_one-river-rock-on-white-background.html \n
-        6. Sounds: http://soundbible.com/tags-jump.html \n
-        7. Music: http://vimeo.com/45191238, http://www.youtube.com/watch?v=gmar4gh5nIw\n
-        8. Phones tested: LG Nexus 5, Samsung Galaxy S4. Samsung Galaxy S3, LG Optimus Slider\n
-        9. Special thanks to Rebecca Nardi.\n
+        4. Sounds: http://soundbible.com/tags-jump.html \n
+        5. Music: http://vimeo.com/45191238, http://www.youtube.com/watch?v=gmar4gh5nIw\n
+        6. Devices tested: LG Nexus 5, ASUS Nexus 7, Samsung Galaxy S4, Samsung Galaxy S3.\n
     </string>
     <string name="hwm_quit">Quit</string>
     <string name="hwm_music_option">Music</string>
@@ -56,6 +49,8 @@
         \n
         Experience new levels with every playthrough, compete with friends on the leaderboards, \n
         and get in shape with Hop with Me!</string>
+
+    <!-- Tutorial Strings -->
     <string name="hwm_tutorial">Tutorial</string>
     <string name="hwm_tut0">
         Welcome to Hop with Me! To move forward all you need to do is squat then jump!\n
@@ -81,4 +76,5 @@
         Be careful though, the stream gets faster each time!\n
         Happy Hopping!
     </string>
+
 </resources>
