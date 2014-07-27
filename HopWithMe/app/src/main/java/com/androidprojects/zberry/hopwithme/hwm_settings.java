@@ -1,4 +1,4 @@
-package edu.neu.madcourse.zacharyberry;
+package com.androidprojects.zberry.hopwithme;
 
 import android.app.Activity;
 import android.content.Context;

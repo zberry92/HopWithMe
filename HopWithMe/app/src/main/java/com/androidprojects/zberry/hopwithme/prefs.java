@@ -1,4 +1,4 @@
-package edu.neu.madcourse.zacharyberry;
+package com.androidprojects.zberry.hopwithme;
 
 import android.content.Context;
 import android.graphics.Rect;

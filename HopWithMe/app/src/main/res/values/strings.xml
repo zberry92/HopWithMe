@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="hwm_app_label">MAD13-HopWithMe</string>
+    <string name="app_name">Hop with Me</string>
+    <string name="preferences_label">Preferences</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Music asumamry</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_shortcut">Settings Short</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="hwm_app_label">HopWithMe</string>
     <string name="hwm_hardest_part">Trickiest Part</string>
     <string name="hwm_final_project">Final Project</string>
     <string name="hwm_back_text">Go Back</string>
