@@ -22,19 +22,19 @@ import java.util.Random;
 public class hwm_game extends Activity
 {
     /* Shared Preferences */
-    public static final String SHARED_PREF_HWM = "edu.neu.madcourse.hwm.sharedPref";
-    public static final String PREF_HWM_BOARD = "edu.neu.madcourse.hwm.board";
-    public static final String PREF_LOAD_TUTORIAL = "edu.neu.madcourse.hwm.tutorial";
-    public static final String PREF_HWM_FROGTILETYPE = "edu.neu.madcourse.hwm.frogTileType";
-    public static final String PREF_HWM_FROGX = "edu.neu.madcourse.hwm.frogX";
-    public static final String PREF_HWM_FROGY = "edu.neu.madcourse.hwm.frogY";
-    public static final String PREF_HWM_FROGDIR = "edu.neu.madcourse.hwm.frogDirection";
-    public static final String PREF_HWM_LIVESLEFT = "edu.neu.madcourse.hwm.livesLeft";
-    public static final String PREF_HWM_FLIESCOLLECTED = "edu.neu.madcourse.hwm.fliesCollected";
-    public static final String PREF_HWM_TIMELEFT = "edu.neu.madcourse.hwm.timeLeft";
-    public static final String PREF_HWM_TIMEINCREMENT = "edu.neu.madcourse.hwm.timeIncrement";
-    public static final String PREF_HWM_TOTALSCORE = "edu.neu.madcourse.hwm.totalScore";
-    public static final String PREF_HWM_TOTALTIME = "edu.neu.madcourse.hwm.totalTime";
+    public static final String SHARED_PREF_HWM = "com.androidprojects.zberry.hopwithme.sharedPref";
+    public static final String PREF_HWM_BOARD = "com.androidprojects.zberry.hopwithme.board";
+    public static final String PREF_LOAD_TUTORIAL = "com.androidprojects.zberry.hopwithme.tutorial";
+    public static final String PREF_HWM_FROGTILETYPE = "com.androidprojects.zberry.hopwithme.frogTileType";
+    public static final String PREF_HWM_FROGX = "com.androidprojects.zberry.hopwithme.frogX";
+    public static final String PREF_HWM_FROGY = "com.androidprojects.zberry.hopwithme.frogY";
+    public static final String PREF_HWM_FROGDIR = "com.androidprojects.zberry.hopwithme.frogDirection";
+    public static final String PREF_HWM_LIVESLEFT = "com.androidprojects.zberry.hopwithme.livesLeft";
+    public static final String PREF_HWM_FLIESCOLLECTED = "com.androidprojects.zberry.hopwithme.fliesCollected";
+    public static final String PREF_HWM_TIMELEFT = "com.androidprojects.zberry.hopwithme.timeLeft";
+    public static final String PREF_HWM_TIMEINCREMENT = "com.androidprojects.zberry.hopwithme.timeIncrement";
+    public static final String PREF_HWM_TOTALSCORE = "com.androidprojects.zberry.hopwithme.totalScore";
+    public static final String PREF_HWM_TOTALTIME = "com.androidprojects.zberry.hopwithme.totalTime";
 
     // Board data shared prefs
     public SharedPreferences boardData;
@@ -99,9 +99,6 @@ public class hwm_game extends Activity
     private MediaPlayer lossSound;
     private MediaPlayer victorySound;
     private MediaPlayer flyEaten;
-
-    //private ToneGenerator jumpTone;
-    //private ToneGenerator turnTone;
 
     // Wakelock globals
     PowerManager pm = null;
@@ -197,7 +194,7 @@ public class hwm_game extends Activity
 
         // Saves game just created
         editBoardData.putBoolean("saveGameExists", true);
-        editBoardData.commit();
+        editBoardData.apply();
 
     }
 
@@ -327,11 +324,9 @@ public class hwm_game extends Activity
     private void loadState(){
 
         // Update shared preferences
-        //getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getString(PREF_HWM_BOARD, "404");
         frogTileType = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_FROGTILETYPE, frogTileType);
         frogX = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_FROGX, frogX);
         frogY = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_FROGY, frogY);
-        //frogDir = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getString(PREF_HWM_FROGDIR, frogDir);
         livesLeft = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_LIVESLEFT, livesLeft);
         fliesCollected = getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_FLIESCOLLECTED, fliesCollected);
         currentTime = (long)getSharedPreferences(SHARED_PREF_HWM, MODE_PRIVATE).getInt(PREF_HWM_TIMELEFT, 120000);

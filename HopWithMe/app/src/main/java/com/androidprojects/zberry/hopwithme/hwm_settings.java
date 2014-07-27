@@ -8,13 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 
-
-
-
 public class hwm_settings extends Activity implements View.OnClickListener
 {
 
-    public static final String PREF_MUSIC_OPTION = "MUSIC_OPTION";
+    public static final String PREF_MUSIC_OPTION = "com.androidprojects.zberry.hopwithme.MUSIC_OPTION";
 
     protected void onCreate(Bundle savedInstanceState)
     {

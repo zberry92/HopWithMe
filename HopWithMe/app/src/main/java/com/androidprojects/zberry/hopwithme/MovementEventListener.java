@@ -5,8 +5,6 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 
-import java.net.JarURLConnection;
-
 public class MovementEventListener implements SensorEventListener
 {
     private static final float jumpUpThreshold = 2f;

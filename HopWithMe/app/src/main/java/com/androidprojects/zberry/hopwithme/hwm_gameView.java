@@ -92,10 +92,6 @@ public class hwm_gameView extends View
         lastFrogY = game.getFrogY();
         lastFrogDir = game.getFrogDir();
 
-
-//        Bitmap bigFlyBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.fly);
-//        flyBitmap = Bitmap.createScaledBitmap(bigFlyBitmap, flyRect.width(), flyRect.height(), false);
-
         // Run timer
         updateFrogPosition();
     }
@@ -142,7 +138,6 @@ public class hwm_gameView extends View
         myOptions.inDither = true;
         myOptions.inScaled = false;
         myOptions.inPreferredConfig = Bitmap.Config.ARGB_8888;//important
-        //myOptions.inDither = false;
         myOptions.inPurgeable = true;
 
         // Frog
@@ -300,14 +295,6 @@ public class hwm_gameView extends View
     Paint parseTileColor(int x, int y)
     {
         Paint tileColor = new Paint();
-
-        /*
-        if (x == -1 && y == -1)
-        {
-            tileColor.setColor(getResources().getColor(R.color.hwm_frog));
-            return tileColor;
-        }
-        */
 
         int type = game.getTile(x, y);
 

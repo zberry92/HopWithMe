@@ -1,11 +1,9 @@
 package com.androidprojects.zberry.hopwithme;
 
 import android.app.Activity;
-import android.graphics.Rect;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -13,8 +11,6 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.logging.SocketHandler;
 
 public class hwm_end extends Activity implements OnClickListener
 {

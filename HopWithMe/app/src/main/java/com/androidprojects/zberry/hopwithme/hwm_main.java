@@ -15,7 +15,7 @@ import android.view.WindowManager;;
 
 public class hwm_main extends Activity implements OnClickListener
 {
-    private static final String PREF_INITAL_LOAD = "edu.neu.madcourse.hwm.il";
+    private static final String PREF_INITAL_LOAD = "com.androidprojects.zberry.hopwithme.il";
 
     // Shared prefs for load game
     public SharedPreferences boardData;

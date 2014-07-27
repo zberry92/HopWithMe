@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class hwm_scores extends Activity implements OnClickListener
 {
     /* Shared Preferences */
-    public static final String PREF_HWM_HIGHSCORE_BASE = "edu.neu.madcourse.hwm.highscore";
+    public static final String PREF_HWM_HIGHSCORE_BASE = "com.androidprojects.zberry.hopwithme.highscore";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

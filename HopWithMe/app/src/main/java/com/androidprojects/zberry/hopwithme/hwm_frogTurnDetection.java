@@ -4,12 +4,10 @@ import android.content.Context;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
-
 public class hwm_frogTurnDetection extends GestureDetector.SimpleOnGestureListener
 {
     // Thresholds, for swipe gesture detection
     private static final int swipeThreshold = 50;
-    private static final int velocityThreshold = 100;
 
     public hwm_game game;
 

@@ -9,7 +9,7 @@ import android.view.WindowManager;
 
 public class hwm_tutorial extends Activity
 {
-    public static final String PREF_TUTORIAL_PLACE = "edu.neu.madcourse.hwm.tutPlace";
+    public static final String PREF_TUTORIAL_PLACE = "com.androidprojects.zberry.hopewithme.tutPlace";
 
     @Override
     protected void onCreate(Bundle savedInstanceBundle)
