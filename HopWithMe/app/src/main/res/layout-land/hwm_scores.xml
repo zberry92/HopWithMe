@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hwm_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/hwm_scores_button"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/hwm_score_header"/>
+
+    <ScrollView
+        android:layout_width="275dp"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:scrollbarFadeDuration="0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore0"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore1"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore2"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore3"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore4"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore5"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore6"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore7"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore8"/>
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/hwm_highscore9"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/hwm_back_score_button"
+        android:text="@string/hwm_back_text"/>
+
+</LinearLayout>

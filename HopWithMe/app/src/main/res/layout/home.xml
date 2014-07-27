@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/home_background"
+    android:gravity="center"
+    android:padding="10dip">
+
+    <TextView
+        android:text="@string/home_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/home_background"
+        android:gravity="center"
+        android:scrollbarFadeDuration="0"
+        android:padding="10dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home_background"
+            android:gravity="center"
+            android:padding="10dip">
+            <Button
+                android:id="@+id/about_home_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_home_label" />
+            <Button
+                android:id="@+id/generate_error_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/generate_error_home_label" />
+            <Button
+                android:id="@+id/sudoku_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sudoku_home_label" />
+            <Button
+                android:id="@+id/dictionary_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dictionary_button_label" />
+            <Button
+                android:id="@+id/dabble_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dabble_button_label" />
+            <Button
+                android:id="@+id/dabble_communication_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dabble_communication_label" />
+            <Button
+                android:id="@+id/dabble_two_player_start_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/dabble_twoplayer_button_label" />
+            <Button
+                android:id="@+id/hwm_main_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/hwm_hardest_part" />
+            <Button
+                android:id="@+id/hwm_final"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hwm_final_project"/>
+            <Button
+                android:id="@+id/quit_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quit_home_label" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

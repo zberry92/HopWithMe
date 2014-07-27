@@ -1,3 +1,77 @@
-<resources>
-    <string name="app_name">Hop With Me</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="hwm_app_label">MAD13-HopWithMe</string>
+    <string name="hwm_hardest_part">Trickiest Part</string>
+    <string name="hwm_final_project">Final Project</string>
+    <string name="hwm_back_text">Go Back</string>
+    <string name="hwm_main_title">Hop With Me!</string>
+    <string name="hwm_game_start">New Game</string>
+    <string name="hwm_game_continue">Continue Game</string>
+    <string name="hwm_tutorial_button">Start Tutorial</string>
+    <string name="hwm_settings_button">Open Settings</string>
+    <string name="hwm_scores_button">View Scores</string>
+    <string name="hwm_score_header">NAME------------------SCORE-------------------TIME</string>
+    <string name="hwm_highscore_listing" formatted="false">
+        %s------------------%s-------------------%s</string>
+    <string name="hwm_ack">Acknowledgements</string>
+    <string name="hwm_ack_string">
+        We would like to acknowledge the following for this app:\n
+        1. Professional Android Sensing for Sensing knowledge.\n
+        2. Mansoor for his assistance in the tutorials.\n
+        3. Professor Intille for teaching the class.\n
+        4. Icon: http://findicons.com/icon/54145/frog.\n
+        5. Graphics: \n
+            Frog image: http://www.flickr.com/photos/61104766@N04/5564827664/ \n
+            Fly image: http://www.elisabethhubert.com/blog/page/7/ \n
+            Log image: http://graphicriver.net/item/bark-05-red-brown/73866 \n
+            Turtle shell image: http://sweetclipart.com/cute-green-turtle-696 \n
+            Lilly pad image: http://www.mpmschoolsupplies.com/p-15810-classic-accents-lily-pad-one-design.aspx \n
+            Rock image: http://www.123rf.com/photo_4638192_one-river-rock-on-white-background.html \n
+        6. Sounds: http://soundbible.com/tags-jump.html \n
+        7. Music: http://vimeo.com/45191238, http://www.youtube.com/watch?v=gmar4gh5nIw\n
+        8. Phones tested: LG Nexus 5, Samsung Galaxy S4. Samsung Galaxy S3, LG Optimus Slider\n
+        9. Special thanks to Rebecca Nardi.\n
+    </string>
+    <string name="hwm_quit">Quit</string>
+    <string name="hwm_music_option">Music</string>
+    <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+    <string name="hwm_gameOver">Game Over!</string>
+    <string name="hwm_gameOver_scoreString">Your final score was: %s.</string>
+    <string name="hwm_gameOver_timeString">Your total game time was: %s seconds.</string>
+    <string name="hwm_gameOver_rankCongrat">You are now ranked number %s in the high scores!</string>
+    <string name="hwm_usernameSet">Enter your name!</string>
+    <string name="hwm_submitName">Submit</string>
+    <string name="hwm_closeEnd">Close</string>
+    <string name="hwm_next">Next</string>
+    <string name="hwm_description">
+        Hop with Me combines two important daily values, fun and exercise. \n
+        Navigate your frog through challenging worlds while you control it by squatting then jumping and swiping.\n
+        \n
+        Experience new levels with every playthrough, compete with friends on the leaderboards, \n
+        and get in shape with Hop with Me!</string>
+    <string name="hwm_tutorial">Tutorial</string>
+    <string name="hwm_tut0">
+        Welcome to Hop with Me! To move forward all you need to do is squat then jump!\n
+        Give it a try!
+    </string>
+    <string name="hwm_tut1">
+        Good job! Now you don\'t want to fall into the water!\n
+        To turn the frog swipe the direction you want to go!
+        Give it a shot!\n
+    </string>
+    <string name="hwm_tut2">
+        OK, these are logs! Logs or turtles will be traveling across the screen.\n
+        Be careful not to get carried away by the logs or turtles!\n
+        Let it carry you to the next lilly pad and jump off!
+    </string>
+    <string name="hwm_tut3">
+        Look it\'s a fly! Collect these to get an even higher score!\n
+        Just hop over it to grab it!
+    </string>
+    <string name="hwm_tut4">
+        Congratulations you made it!\n
+        Try and make it across the pond each level!\n
+        Be careful though, the stream gets faster each time!\n
+        Happy Hopping!
+    </string>
 </resources>

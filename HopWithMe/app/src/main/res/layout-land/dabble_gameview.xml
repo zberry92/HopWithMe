@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <edu.neu.madcourse.zacharyberry.dabble_gameView
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dabble_button_label"
+        android:id="@+id/dabble_gameTitle"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dabble_timeLabel"
+        android:layout_weight="1"
+        android:layout_below="@+id/dabble_gameTitle"
+        android:layout_alignLeft="@+id/dabble_gameTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dabble_scoreLabel"
+        android:layout_weight="1"
+        android:layout_below="@+id/dabble_timeLabel"
+        android:layout_alignLeft="@+id/dabble_timeLabel" />
+
+    <Button
+        android:textSize="12sp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dabble_howto_button_label"
+        android:id="@+id/dabble_howto_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="11dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:textSize="12sp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dabble_pause_button_label"
+        android:id="@+id/dabble_pause_button"
+        android:layout_weight="1"
+        android:layout_alignBaseline="@+id/dabble_howto_button"
+        android:layout_alignBottom="@+id/dabble_howto_button"
+        android:layout_toRightOf="@+id/dabble_howto_button" />
+
+    <Button
+        android:textSize="12sp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dabble_settings_button_label"
+        android:id="@+id/dabble_settings_button"
+        android:layout_weight="1"
+        android:layout_alignBaseline="@+id/dabble_pause_button"
+        android:layout_alignBottom="@+id/dabble_pause_button"
+        android:layout_toRightOf="@+id/dabble_pause_button" />
+
+    <Button
+        android:textSize="12sp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dabble_solution_button_label"
+        android:id="@+id/dabble_solution_button"
+        android:layout_weight="1"
+        android:layout_alignBaseline="@+id/dabble_settings_button"
+        android:layout_alignBottom="@+id/dabble_settings_button"
+        android:layout_toRightOf="@+id/dabble_settings_button" />
+
+</RelativeLayout>

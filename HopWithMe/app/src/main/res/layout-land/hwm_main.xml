@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/hwm_background"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/hwm_main_title"
+        android:textSize="65dip"
+        android:id="@+id/hwm_main_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_game_start"
+        android:id="@+id/hwm_game_start_button"
+        android:layout_toLeftOf="@+id/hwm_quit_button"
+        android:layout_below="@+id/hwm_main_title"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_game_continue"
+        android:id="@+id/hwm_game_continue_button"
+        android:layout_below="@+id/hwm_setting_button"
+        android:layout_toRightOf="@+id/hwm_quit_button"
+        android:layout_alignBottom="@+id/hwm_tutotial_button"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_settings_button"
+        android:id="@+id/hwm_setting_button"
+        android:layout_alignTop="@+id/hwm_quit_button"
+        android:layout_toRightOf="@+id/hwm_quit_button"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_quit"
+        android:id="@+id/hwm_quit_button"
+        android:layout_above="@+id/hwm_scores_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_tutorial_button"
+        android:id="@+id/hwm_tutotial_button"
+        android:layout_below="@+id/hwm_quit_button"
+        android:layout_alignLeft="@+id/hwm_quit_button"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="@string/hwm_scores_button"
+        android:id="@+id/hwm_scores_button"
+        android:layout_below="@+id/hwm_game_start_button"
+        android:layout_alignLeft="@+id/hwm_game_start_button"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>

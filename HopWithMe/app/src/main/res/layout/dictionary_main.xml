@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/dictionary_background">
+
+    <TextView
+        android:text="@string/dictionary_title"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:layout_marginBottom="25dip"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/dictionary_main_text"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/word_list"
+        android:layout_width="fill_parent"
+        android:layout_height="275dp"/>
+    <EditText
+        android:id="@+id/user_word_box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"/>
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+                android:id="@+id/dictionary_clear_button"
+                android:text="@string/dictionary_clear_button_label" />
+            <Button
+                android:id="@+id/dictionary_return_button"
+                android:text="@string/dictionary_return_button_label" />
+            <Button
+                android:id="@+id/dictionary_ack_button"
+                android:text="@string/dictionary_ack_button_label" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

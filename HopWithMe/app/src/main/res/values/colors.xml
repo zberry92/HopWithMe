@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+   <color name="home_background">#ff044c8e</color>
+   <color name="sudoku_background">#3500ffff</color>
+   <color name="puzzle_background">#ffe6f0ff</color>
+   <color name="puzzle_hilite">#ffffffff</color>
+   <color name="puzzle_light">#64c6d4ef</color>
+   <color name="puzzle_dark">#6456648f</color>
+   <color name="puzzle_foreground">#ff000000</color>
+   <color name="puzzle_hint_0">#64ff0000</color>
+   <color name="puzzle_hint_1">#6400ff80</color>
+   <color name="puzzle_hint_2">#2000ff80</color>
+   <color name="puzzle_selected">#64ff8000</color>
+
+   <!-- Hop with Me Colors -->
+   <color name="hwm_background">#ff49a89d</color>
+   <color name="hwm_frog">#ff1eff0e</color>
+   <color name="hwm_log">#ff795009</color>
+   <color name="hwm_turtle">#ff48e8c5</color>
+   <color name="hwm_water">#ff19208a</color>
+   <color name="hwm_score_background">#ff000000</color>
+   <color name="hwm_score_text">#ffc6f46f</color>
+   <color name="hwm_safe">#ff525252</color>
+   <color name="hwm_lilly_pad">#ff14520a</color>
+    <color name="hwm_error">#fffc0a14</color>
+
+   <!-- Dabble Colors -->
+   <color name="dabble_background">#ff24658e</color>
+   <color name="dabble_correct_hilite">#ff7dff00</color>
+   <color name="dabble_time_short">#ff0000</color>
+
+   <!-- Dictionary Colors -->
+   <color name="dictionary_background">#1E404B</color>
+
+   <color name="white">#FFFFFF</color>
+   <color name="black">#000000</color>
+</resources>

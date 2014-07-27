@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.zacharyberry"
+    android:versionCode="12"
+    android:versionName="3.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_DATA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <!-- Main Activities -->
+        <activity
+            android:name="edu.neu.madcourse.zacharyberry.main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main_about"
+            android:label="@string/about_home_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".main_genError"
+            android:label="@string/generate_error_home_label">
+        </activity>
+        <activity android:name=".prefs"
+            android:label="@string/preferences_label"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <!-- Sudoku Activites -->
+        <activity android:name=".Sudoku"
+            android:label="@string/home_title">
+        </activity>
+        <activity android:name=".sudoku_about"
+            android:label="@string/about_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".sudoku_prefs"
+            android:label="@string/settings_title">
+        </activity>
+        <activity android:name=".sudoku_game"
+            android:label="@string/game_title"/>
+
+        <!-- Dictionary Activities -->
+        <activity android:name=".dictionary_ack"
+            android:label="@string/dictionary_ack_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".dictionary_main"
+            android:screenOrientation="portrait"
+            android:label="@string/dictionary_main_text"/>
+
+        <!-- Dabble Activities -->
+        <activity android:name=".dabble_main"
+            android:screenOrientation="landscape"
+            android:label="@string/dabble_button_label" />
+        <activity android:name=".dabble_game"
+            android:screenOrientation="landscape"
+            android:label="@string/dabble_button_label" />
+        <activity android:name=".dabble_ack"
+            android:label="@string/dabble_ack_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_howTo"
+            android:label="@string/dabble_howto_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_settings"
+            android:label="@string/dabble_settings_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_solution"
+            android:label="@string/dabble_solution_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_end"
+            android:label="@string/dabble_gameover"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+
+        <!-- Dabble Communication Activities -->
+        <activity android:name=".dabble_twoplayer_user"
+            android:label="@string/dabble_username_label"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_twoplayer"
+            android:label="@string/dabble_two_player_label"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_twoplayer_userFind"
+            android:label="@string/dabble_selectUser_button"
+            android:screenOrientation="landscape"/>
+
+        <!-- Dabble Two Player Activities -->
+        <activity android:name=".dabble_twoplayer_main"
+            android:screenOrientation="landscape" />
+        <activity android:name=".dabble_twoplayer_howto"
+            android:label="@string/dabble_howto_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_twoplayer_solution"
+            android:label="@string/dabble_solution_button_label"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".dabble_twoplayer_end"
+            android:label="@string/dabble_gameover"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <service android:name=".dabble_twoplayer_service"/>
+
+        <!-- Hop with Me Activities -->
+        <activity android:name=".hwm_main"
+            android:taskAffinity=".hwm_main"
+            android:icon="@drawable/hwm_launcher"
+            android:label="@string/hwm_app_label"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hwm_game"
+            android:label="@string/hwm_main_title"
+            android:screenOrientation="landscape" />
+        <activity android:name=".hwm_ack"
+            android:label="@string/hwm_ack"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".hwm_scores"
+            android:screenOrientation="landscape" />
+        <activity android:name=".hwm_settings"
+            android:label="@string/hwm_settings_button"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape" />
+        <activity android:name=".hwm_end"
+            android:label="@string/hwm_gameOver"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape" />
+        <activity android:name=".hwm_desc"
+            android:label="hwm_desc"
+            android:screenOrientation="landscape" />
+        <activity android:name=".hwm_tutorial"
+            android:label="@string/hwm_tutorial"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>

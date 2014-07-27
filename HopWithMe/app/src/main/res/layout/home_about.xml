@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+! Zachary Berry
+! NUMAD13
+! Layout for the About Page.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+    <ImageView
+        android:src="@drawable/me"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="@string/about_home_text" />
+    <TextView
+        android:id="@+id/imei_text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
